@@ -13,8 +13,8 @@ Follow these steps to get the production-ready MERN system running on your local
 First, you MUST seed the database with the city infrastructure (Police/Fire/Hospitals).
 
 ```bash
-# Navigate to the server directory and run seed.js
-cd server
+# Navigate to the Backend directory and run seed.js
+cd Backend
 node seed.js
 ```
 
@@ -22,7 +22,7 @@ node seed.js
 
 ## 📡 2. Backend Initialization
 ```bash
-cd server
+cd Backend
 npm install
 # Start the server (runs on port 5000)
 npm start
@@ -33,7 +33,7 @@ npm start
 ## 💻 3. Frontend Initialization
 Open a NEW terminal window:
 ```bash
-cd client
+cd Frontend
 npm install
 # Start the production-ready Vite dev server
 npm run dev
@@ -58,7 +58,7 @@ npm run dev
 --- 
 
 ## 🛠️ Environment Variables
-Check `/server/.env` if you need to change the MongoDB URI or Port.
+Check `/Backend/.env` if you need to change the MongoDB URI or Port.
 Default:
 ```
 PORT=5000
